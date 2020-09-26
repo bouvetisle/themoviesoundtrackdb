@@ -36,7 +36,7 @@ create table if not exists movie_external_id
 (
 	movie_id int not null,
 	imdb_id varchar(100) null,
-	faceboook_id varchar(100) null,
+	facebook_id varchar(100) null,
 	instagram_id varchar(100) null,
 	twitter_id varchar(100) null
 );
